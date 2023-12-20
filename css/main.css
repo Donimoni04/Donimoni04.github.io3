@@ -27,7 +27,6 @@
 .content {
     background-color: violet;
     margin-top: 9px;
-    padding: 3px;
     display: flex;
     flex-direction: column;
     max-width: 960px;
