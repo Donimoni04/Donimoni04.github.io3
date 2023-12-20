@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    /*padding: 0;*/
+}
+
+.logo {
+  border-radius: 50%;
+  border: solid rgb(34, 88, 15);
+  position: absolute;
+  left: 0;
+  width: 68px;
+  margin-left: 3%;
+  min-height: 1vh;
+}
+
+.header {
+  background-color: violet;
+  display: flex;
+  padding:20px;
+  flex-flow: row nowrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.content {
+    background-color: violet;
+    margin-top: 9px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    width: 60%;
+    align-items: center;
+}
+
+.table {
+  border: 2px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+}
+
+.table td,
+th {
+  text-align: center;
+  padding: 3px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 0, 0);
+}
+
+tr.even {
+  background-color: darkviolet;
+}
+
+.footer {
+  display: flex;
+  justify-content: left;
+  padding: 15px;
+  background-color: darkviolet;
+  margin-top: 9px;
+  
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 860px){
+    .content{
+        width: 100%;
+    }
+    #item1{
+        order:1;
+    }
+    #item2{
+        order:3;
+    }
+    #item3{
+        order:2;
+    }
+    #form{
+        order:4;
+    }
+
+
+}
+.im{
+    width: 200px;
+} 
